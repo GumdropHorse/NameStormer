@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    tools:context=".home">
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginEnd="49dp"
+        android:gravity="center"
+        android:padding="30dp"
+        android:text="Home"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/fGenerateScreen"
+        android:layout_width="154dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="235dp"
+        android:backgroundTint="#CDB200"
+        android:text="Generate Female Names"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/mGenerateScreen"
+        android:layout_width="154dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="233dp"
+        android:layout_marginTop="345dp"
+        android:backgroundTint="#CDB200"
+        android:text="Generate Male Names"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/nGenerateScreen"
+        android:layout_width="154dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="#CDB200"
+        android:text="Generate Neutral Names"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/allScreen"
+        android:layout_width="154dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="233dp"
+        android:layout_marginTop="560dp"
+        android:backgroundTint="#CDB200"
+        android:text="Generate Randomly"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/logoutbtn"
+        android:layout_width="154dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="645dp"
+        android:backgroundTint="#CDB200"
+        android:text="Log Out"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

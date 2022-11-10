@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "790579577297",
+    "project_id": "namestormer-3b373",
+    "storage_bucket": "namestormer-3b373.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790579577297:android:a7a9531b4a676f9cbbe0f0",
+        "android_client_info": {
+          "package_name": "com.RachelLoren.NameStormer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790579577297-ou9g5vqb9qiq5o9dvhjj2h84as5qe8ee.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.RachelLoren.NameStormer",
+            "certificate_hash": "9afcc9643f8de6881d10e2b1cdf263a39bbe14f9"
+          }
+        },
+        {
+          "client_id": "790579577297-uo6p6qb3vfm3f6n2gt9mt1fnb3qudjo1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwZRkbYCU9IyISVi1LKzD50C8saR9sltk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "790579577297-uo6p6qb3vfm3f6n2gt9mt1fnb3qudjo1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
